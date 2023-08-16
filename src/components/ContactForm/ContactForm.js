@@ -13,9 +13,9 @@ function ContactForm() {
         event.preventDefault();
 
         const userObj = {
-            name: nameRef.current.value,
-            email: emailRef.current.value,
-            phone: phoneRef.current.value,
+            name: nameRef.current.valueOf,
+            email: emailRef.current.valueOf,
+            phone: phoneRef.current.valueOf,
         };
 
         // store data in db
@@ -33,9 +33,9 @@ function ContactForm() {
         setIsSubmitted(true);
 
         // clear fields
-        nameRef.current.value = "";
-        emailRef.current.value = "";
-        phoneRef.current.value = "";
+        nameRef.current.valueOf = "";
+        emailRef.current.valueOf = "";
+        phoneRef.current.valueOf = "";
     };
 
     return (

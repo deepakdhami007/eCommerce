@@ -10,7 +10,7 @@ const Footer = () => {
         <Container className="mt-5">
             <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <div className="col-md-4 d-flex align-items-center">
-                    <a className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <a className="mb-3 me-2 mb-md-0 text-muted" href="text-decoration-none lh-1">
                         <img
                             height="50"
                             width="50"
@@ -25,7 +25,7 @@ const Footer = () => {
 
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                     <li className="ms-3">
-                        <a className="text-muted" href="#">
+                        <a className="text-muted" href="https://www.youtube.com">
                             <img
                                 height="50"
                                 width="50"
@@ -35,7 +35,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li className="ms-3">
-                        <a className="text-muted" href="#">
+                        <a className="text-muted" href="https://www.instagram.com">
                             <img
                                 height="50"
                                 width="50"
@@ -45,7 +45,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li className="ms-3">
-                        <a className="text-muted" href="#">
+                        <a className="text-muted" href="https://www.facebook.com">
                             <img
                                 height="50"
                                 width="50"
