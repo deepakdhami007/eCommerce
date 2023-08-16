@@ -29,10 +29,19 @@ const AuthForm = () => {
             let url;
             if (isLogin) {
                 url =
+<<<<<<< HEAD
                     "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCuVzejpGpc9aVGzQjUMjOw2kZO2dho_Q0"
             } else {
                 url =
                     "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCuVzejpGpc9aVGzQjUMjOw2kZO2dho_Q0"
+=======
+                    'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyB06YZ_oXEiJ8dVL4gTzsRC5v3m1qX1kGI' +
+                    api_key;
+            } else {
+                url =
+                    "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyB06YZ_oXEiJ8dVL4gTzsRC5v3m1qX1kGI"+
+                    api_key;
+>>>>>>> 327890ca356459f79e71d413f4dab1799c742a13
             }
 
             const res = await fetch(url, {
